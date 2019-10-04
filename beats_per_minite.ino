@@ -90,7 +90,7 @@ Serial.println("AT+CMGF=1");  // sets the SMS mode to text
 delay(3000);
 Serial.println();
 Serial.print("AT+CMGS=");     // send the SMS number
-Serial.print("\"+918511225062\"");
+Serial.print("\"+91\"");
 Serial.println();
 delay(3000);
 Serial.print("Patient condition very critical please contact");             //enter latitude in msg
